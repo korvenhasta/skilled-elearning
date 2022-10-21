@@ -1,0 +1,28 @@
+/* Link to get started */
+
+.courses__link {
+    font-family: 'Plus Jakarta Sans Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+    text-decoration: none;
+    margin: 0 0 32px 28px;
+}
+
+.courses__link:hover {
+    color: #FFA7C3;
+}
+
+@media screen and (min-width: 768px) {
+    .courses__link {
+        margin: 0 0 32px 32px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .courses__link {
+        margin: 0 0 40px 32px;
+    }
+}

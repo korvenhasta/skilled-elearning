@@ -1,0 +1,24 @@
+/* Button in the Get Started section */
+
+.button_get-started {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    color: #FFFFFF;
+    border-radius: 31.5px;
+    width: 167px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.button_get-started:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);;
+}
+
+@media screen and (min-width: 1440px) {
+    .button_get-started {
+        height: 63px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

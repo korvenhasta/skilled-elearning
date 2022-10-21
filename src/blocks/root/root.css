@@ -1,0 +1,35 @@
+/* Body settings */
+
+.root {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .root {
+        background-image: url("/src/assets/image-hero-tablet.webp");
+        background-repeat: no-repeat;
+        background-position: top -105px right -300px;
+    }
+  }
+
+@media screen and (min-width: 1440px) {
+    .root {
+        background-image: url("/src/assets/image-hero-desktop.webp");
+        background-position: top -180px right -380px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .root {
+        background-image: url("/src/assets/image-hero-desktop.webp");
+        background-position: top -180px right 200px;
+    }
+}

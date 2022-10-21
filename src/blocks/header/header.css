@@ -1,0 +1,20 @@
+@import url("../header/__page-container/header__page-container.css");
+@import url("../header/__menu-list/header__menu-list.css");
+@import url("../header/__list-item/header__list-item.css");
+@import url("../header/__logo/header__logo.css");
+
+.header {
+    padding: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        padding: 24px 40px;
+    }
+  }
+
+@media screen and (min-width: 1440px) {
+    .header {
+        padding: 24px 165px;
+    }
+}

@@ -1,0 +1,26 @@
+/* Main heading of the page */
+
+.get-started__title {
+    font-family: 'Plus Jakarta Sans Extra Bold', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    /* font-size: 40px; */
+    line-height: 50px;
+    color: #13183F;
+    margin: 0 0 26px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .get-started__title{
+        margin: 0 0 25px 0;
+    }
+  }
+
+@media screen and (min-width: 1440px) {
+    .get-started__title {
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 71px;
+        margin: 0 0 29px 0;
+    }
+}

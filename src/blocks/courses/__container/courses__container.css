@@ -1,0 +1,21 @@
+/* Container for list of courses */
+
+.courses__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .courses__container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .courses__container {
+        flex-direction: row;
+    }
+}

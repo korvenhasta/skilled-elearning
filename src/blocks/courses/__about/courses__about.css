@@ -1,0 +1,27 @@
+/* Summary information about the course */
+
+.courses__about {
+    font-family: 'Plus Jakarta Sans Medium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869A;
+    margin: 0 29px 24px 28px;
+}
+
+@media screen and (min-width: 768px) {
+    .courses__about {
+        height: 80px;
+        margin: 0 22px 24px 32px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .courses__about {
+        height: 106px;
+        margin: 0 32px 24px 32px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

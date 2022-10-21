@@ -1,0 +1,18 @@
+/* Footer */
+
+.footer {
+    background: #13183F;
+    padding: 34px 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 24px 40px;
+    }
+  }
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        padding: 32px 165px;
+    }
+}

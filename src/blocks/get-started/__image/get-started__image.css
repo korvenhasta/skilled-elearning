@@ -1,0 +1,15 @@
+/* Image with counters */
+
+.get-started__image {
+    display: block;
+    width: 327px;
+    height: 301px;
+    margin: 0 auto 66px auto;
+
+}
+
+@media screen and (min-width: 768px) {
+    .get-started__image {
+        display: none;
+    }
+  }
